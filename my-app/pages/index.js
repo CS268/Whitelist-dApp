@@ -182,7 +182,7 @@ export default function Home() {
       // Assign the Web3Modal class to the reference object by setting it's `current` value
       // The `current` value is persisted throughout as long as this page is open
       web3ModalRef.current = new Web3Modal({
-        network: "arbitrum one mainnet",
+        network: "arbitrum",
         providerOptions: {},
         disableInjectedProvider: false,
       });
@@ -208,10 +208,8 @@ export default function Home() {
           </div>
           {renderButton()}
         </div>
-        <img src="ipfs://QmdG8iJvTHbCz55hKNgwfVchSsKFhGhcGCUYiFpH9aMkeR/colorful6.png" />
-<img src="ipfs://QmdG8iJvTHbCz55hKNgwfVchSsKFhGhcGCUYiFpH9aMkeR/colorful8.png" />
-<img src="ipfs://QmdG8iJvTHbCz55hKNgwfVchSsKFhGhcGCUYiFpH9aMkeR/colorfu21.png" />
-<img src="ipfs://QmdG8iJvTHbCz55hKNgwfVchSsKFhGhcGCUYiFpH9aMkeR/colorfu22.png" />
+        <img src="ipfs/QmYPS6pTMPBz7ibZgxBvyi5bqDGs5oGNRFijnACB2Lux53/colorful16.png" />
+<img src="ipfs/QmYPS6pTMPBz7ibZgxBvyi5bqDGs5oGNRFijnACB2Lux53/colorful18.png" />
       </div>
 
       <footer className={styles.footer}>
